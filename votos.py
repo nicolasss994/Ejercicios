@@ -16,5 +16,4 @@ print("-"*15, " CANTIDAD DE VOTOS ", "-"*15)
 for persona, cantidad in sorted(conteo.items()):
     print(f"- {persona}: {cantidad}")
 print(f"Ganador: {ganador}")
-print(conteo)
         
